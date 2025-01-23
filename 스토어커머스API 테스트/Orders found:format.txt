@@ -1,0 +1,145 @@
+Orders found: 2
+========================================
+주문 상세 정보
+payLocationType: MOBILE
+orderId: 2025012420927911
+paymentDate: 2025-01-24T00:59:41.0+09:00
+chargeAmountPaymentAmount: 19900
+generalPaymentAmount: 0
+naverMileagePaymentAmount: 0
+orderDiscountAmount: 0
+ordererId: king****
+ordererName: 곽현준
+payLaterPaymentAmount: 0
+orderDate: 2025-01-24T00:59:36.0+09:00
+paymentMeans: 포인트결제
+isDeliveryMemoParticularInput: false
+ordererTel: 01089765834
+ordererNo: 206643731
+========================================
+상품주문정보
+productOrderId: 2025012451007191
+knowledgeShoppingSellingInterlockCommission: 398
+optionPrice: 0
+deliveryPolicyType: 무료
+sectionDeliveryFee: 0
+quantity: 1
+mallId: ncp_1o6fme_01
+productOrderStatus: PAYED
+deliveryDiscountAmount: 0
+optionCode: 39079754319
+packageNumber: 2025012499775747
+placeOrderStatus: NOT_YET
+shippingAddress: {'isRoadNameAddress': True, 'zipCode': '18476', 'baseAddress': '경기도 화성시 동탄대로시범길 134 (청계동, 시범 반도유보라 아이비파크4.0)', 'addressType': 'DOMESTIC', 'detailedAddress': '1501동 2202호', 'tel1': '010-8976-5834', 'name': '곽현준'}
+shippingDueDate: 2025-02-04T23:59:59.0+09:00
+shippingFeeType: 무료
+totalPaymentAmount: 19900
+totalProductAmount: 69000
+productId: 8975618028
+productName: [GAP] 당일수확 신선한 대추방울토마토 오색 대추 방울토마토 1.5kg,3kg
+productOption: 품목선택: 빨강 대추방울토마토 1.5 kg
+unitPrice: 69000
+productDiscountAmount: 49100
+deliveryFeeAmount: 0
+sellerBurdenDiscountAmount: 49100
+deliveryAttributeType: NORMAL
+itemNo: 39079754319
+productClass: 조합형옵션상품
+merchantChannelId: 101150711
+expectedDeliveryMethod: DELIVERY
+initialProductDiscountAmount: 49100
+remainProductDiscountAmount: 49100
+originalProductId: 8933338895
+initialQuantity: 1
+remainQuantity: 1
+sellerProductCode: P001
+takingAddress: {'isRoadNameAddress': True, 'zipCode': '17702', 'baseAddress': '경기도 평택시 서탄면', 'addressType': 'DOMESTIC', 'detailedAddress': '마두길 59-450', 'tel1': '010-4671-2023', 'tel2': '010-4671-2023', 'name': '평택농장'}
+initialPaymentAmount: 19900
+remainPaymentAmount: 19900
+initialProductAmount: 69000
+remainProductAmount: 69000
+commissionRatingType: 결제수수료
+commissionPrePayStatus: GENERAL_PRD
+paymentCommission: 394
+saleCommission: 0
+expectedSettlementAmount: 19108
+inflowPath: 네이버페이>홈(네이버쇼핑)
+inflowPathAdd: null
+optionManageCode: 1
+channelCommission: 0
+productImediateDiscountAmount: 49100
+sellerBurdenImediateDiscountAmount: 49100
+expectedDeliveryCompany: HANJIN
+========================================
+========================================
+주문 상세 정보
+payLocationType: MOBILE
+orderId: 2025012421340491
+paymentDate: 2025-01-24T02:03:46.0+09:00
+orderDate: 2025-01-24T02:03:43.0+09:00
+paymentMeans: 포인트결제
+isDeliveryMemoParticularInput: false
+chargeAmountPaymentAmount: 33900
+generalPaymentAmount: 0
+naverMileagePaymentAmount: 0
+orderDiscountAmount: 0
+ordererId: king****
+ordererName: 곽현준
+payLaterPaymentAmount: 0
+ordererTel: 01089765834
+ordererNo: 206643731
+========================================
+상품주문정보
+productOrderId: 2025012451658761
+quantity: 1
+mallId: ncp_1o6fme_01
+knowledgeShoppingSellingInterlockCommission: 678
+deliveryDiscountAmount: 0
+optionCode: 39079754320
+packageNumber: 2025012499853411
+placeOrderStatus: NOT_YET
+shippingAddress: {'zipCode': '03414', 'baseAddress': '서울특별시 은평구 연서로11길 27-1 (구산동)', 'isRoadNameAddress': True, 'addressType': 'DOMESTIC', 'detailedAddress': '건우주택 202호', 'tel1': '010-3022-5834', 'name': '하정희'}
+shippingDueDate: 2025-02-04T23:59:59.0+09:00
+shippingFeeType: 무료
+totalPaymentAmount: 33900
+totalProductAmount: 83000
+productOrderStatus: PAYED
+productId: 8975618028
+productName: [GAP] 당일수확 신선한 대추방울토마토 오색 대추 방울토마토 1.5kg,3kg
+productOption: 품목선택: 빨강 대추방울토마토 3kg
+unitPrice: 69000
+productDiscountAmount: 49100
+deliveryFeeAmount: 0
+sellerBurdenDiscountAmount: 49100
+deliveryAttributeType: NORMAL
+itemNo: 39079754320
+productClass: 조합형옵션상품
+optionPrice: 14000
+deliveryPolicyType: 무료
+sectionDeliveryFee: 0
+merchantChannelId: 101150711
+expectedDeliveryMethod: DELIVERY
+takingAddress: {'zipCode': '17702', 'baseAddress': '경기도 평택시 서탄면', 'isRoadNameAddress': True, 'addressType': 'DOMESTIC', 'detailedAddress': '마두길 59-450', 'tel1': '010-4671-2023', 'tel2': '010-4671-2023', 'name': '평택농장'}
+initialProductDiscountAmount: 49100
+remainProductDiscountAmount: 49100
+originalProductId: 8933338895
+initialQuantity: 1
+remainQuantity: 1
+sellerProductCode: P001
+initialPaymentAmount: 33900
+remainPaymentAmount: 33900
+initialProductAmount: 83000
+remainProductAmount: 83000
+commissionRatingType: 결제수수료
+commissionPrePayStatus: GENERAL_PRD
+paymentCommission: 671
+saleCommission: 0
+expectedSettlementAmount: 32551
+inflowPath: 네이버페이>홈(네이버쇼핑)
+inflowPathAdd: null
+optionManageCode: 2
+channelCommission: 0
+productImediateDiscountAmount: 49100
+sellerBurdenImediateDiscountAmount: 49100
+expectedDeliveryCompany: HANJIN
+========================================
