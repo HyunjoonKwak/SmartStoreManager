@@ -97,89 +97,23 @@ def get_order_detail(order_id):
 
         order = data["data"][0]["order"]
         productOrder = data["data"][0]["productOrder"]
-        print("========================================")
-        print(f"주문 상세 정보")
-        for key, value in order.items():
-            print(f"{key}: {value}")
-        print("========================================")
-        # print(f"상품 주문 정보: {productOrder}")
-        print("상품주문정보")
-        for key, value in productOrder.items():
-            print(f"{key}: {value}")
-        print("========================================")
-# ========================================
-# 주문 상세 정보
-# payLocationType: MOBILE
-# orderId: 2025012420927911
-# paymentDate: 2025-01-24T00:59:41.0+09:00
-# chargeAmountPaymentAmount: 19900
-# generalPaymentAmount: 0
-# naverMileagePaymentAmount: 0
-# orderDiscountAmount: 0
-# ordererId: king****
-# ordererName: 곽현준
-# payLaterPaymentAmount: 0
-# orderDate: 2025-01-24T00:59:36.0+09:00
-# paymentMeans: 포인트결제
-# isDeliveryMemoParticularInput: false
-# ordererTel: 01089765834
-# ordererNo: 206643731
-# ========================================
-# 상품주문정보
-# merchantChannelId: 101150711
-# quantity: 1
-# mallId: ncp_1o6fme_01
-# productOrderId: 2025012451007191
-# deliveryDiscountAmount: 0
-# optionCode: 39079754319
-# packageNumber: 2025012499775747
-# placeOrderStatus: NOT_YET
-# shippingAddress: {'isRoadNameAddress': True, 'addressType': 'DOMESTIC', 'detailedAddress': '1501동 2202호', 'tel1': '010-8976-5834', 'zipCode': '18476', 'baseAddress': '경기도 화성시 동탄대로시범길 134 (청계동, 시범 반도유보라 아이비파크4.0)', 'name': '곽현준'}
-# shippingDueDate: 2025-02-04T23:59:59.0+09:00
-# shippingFeeType: 무료
-# totalPaymentAmount: 19900
-# totalProductAmount: 69000
-# productOrderStatus: PAYED
-# productId: 8975618028
-# productName: [GAP] 당일수확 신선한 대추방울토마토 오색 대추 방울토마토 1.5kg,3kg
-# productOption: 품목선택: 빨강 대추방울토마토 1.5 kg
-# unitPrice: 69000
-# productDiscountAmount: 49100
-# deliveryFeeAmount: 0
-# sellerBurdenDiscountAmount: 49100
-# deliveryAttributeType: NORMAL
-# itemNo: 39079754319
-# productClass: 조합형옵션상품
-# optionPrice: 0
-# deliveryPolicyType: 무료
-# sectionDeliveryFee: 0
-# knowledgeShoppingSellingInterlockCommission: 398
-# expectedDeliveryMethod: DELIVERY
-# initialProductDiscountAmount: 49100
-# remainProductDiscountAmount: 49100
-# originalProductId: 8933338895
-# initialQuantity: 1
-# remainQuantity: 1
-# sellerProductCode: P001
-# takingAddress: {'isRoadNameAddress': True, 'addressType': 'DOMESTIC', 'detailedAddress': '마두길 59-450', 'tel1': '010-4671-2023', 'tel2': '010-4671-2023', 'zipCode': '17702', 'baseAddress': '경기도 평택시 서탄면', 'name': '평택농장'}
-# initialPaymentAmount: 19900
-# remainPaymentAmount: 19900
-# initialProductAmount: 69000
-# remainProductAmount: 69000
-# commissionRatingType: 결제수수료
-# commissionPrePayStatus: GENERAL_PRD
-# paymentCommission: 394
-# saleCommission: 0
-# expectedSettlementAmount: 19108
-# inflowPath: 네이버페이>홈(네이버쇼핑)
-# inflowPathAdd: null
-# optionManageCode: 1
-# channelCommission: 0
-# productImediateDiscountAmount: 49100
-# sellerBurdenImediateDiscountAmount: 49100
-# expectedDeliveryCompany: HANJIN
-# ========================================
+        # print("========================================")
+        # print(f"주문 상세 정보")
+        # for key, value in order.items():
+        #     print(f"{key}: {value}")
+        # print("========================================")
+        # # print(f"상품 주문 정보: {productOrder}")
+        # print("상품주문정보")
+        # for key, value in productOrder.items():
+        #     print(f"{key}: {value}")
+        # print("========================================")
 
+        # print(f" Address : {productOrder['shippingAddress']}")
+        print(f" Name : {productOrder['shippingAddress']['name']}")
+        print(f" Phone : {productOrder['shippingAddress']['tel1']}")
+        print(f" Address1 : {productOrder['shippingAddress']['baseAddress']}")
+        print(f" Address2 : {productOrder['shippingAddress']['detailedAddress']}")
+        print(f" ZipCode : {productOrder['shippingAddress']['zipCode']}")
         return order
     except Exception as e:
         print(f"Error fetching order detail for ID {order_id}: {e}")
